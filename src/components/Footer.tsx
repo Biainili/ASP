@@ -10,25 +10,25 @@ const Footer = () => {
               className="item_footer fs-5 card-animation"
               style={{ animationDelay: "0s" }}
             >
-              <a href="">Declarations</a>
+              <a href="/">Declarations</a>
             </li>
             <li
               className="item_footer fs-5 card-animation"
               style={{ animationDelay: "0.3s" }}
             >
-              <a href="">Notarized translations</a>
+              <a href="/">Notarized translations</a>
             </li>
             <li
               className="item_footer fs-5 card-animation"
               style={{ animationDelay: "0.6s" }}
             >
-              <a href="">Licenses and permits</a>
+              <a href="/">Licenses and permits</a>
             </li>
             <li
               className="item_footer fs-5 card-animation"
               style={{ animationDelay: "0.9s" }}
             >
-              <a href="" className="footer_item">Accounting</a>
+              <a href="//" className="footer_item">Accounting</a>
             </li>
           </ul>
         </div>
