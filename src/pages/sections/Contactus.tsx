@@ -62,7 +62,7 @@ const Contactus = () => {
             >
               <div className="mb-3 bg-warning item_contact" onMouseEnter={hoverOnWhats} onMouseLeave={hoverOffWhats} >
                 <img src={WhatsApp} alt="WhatsApp" className="icon_size" />
-                <a className="text_black" rel="noreferrer">{!visibrlWhats ? <span>What's App</span> : <span>+7 916 606 96 33</span>}</a>
+                <a className="text_black" href="https://wa.me/79166069633" rel="noreferrer">{!visibrlWhats ? <span>What's App</span> : <span>+7 916 606 96 33</span>}</a>
               </div>
             </div>
           </div>
