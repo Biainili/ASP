@@ -73,7 +73,7 @@ const Card: React.FC<CardDataService> = ({
                       src={
                         fields.icon_aps ? fields.icon_aps[0] : "/default.png"
                       }
-                      alt="/"
+                      alt="description"
                       className="img_icon"
                     />
                   </div>
@@ -154,7 +154,7 @@ const Card: React.FC<CardDataService> = ({
                       src={
                         fields.icon_aps ? fields.icon_aps[3] : "/default.png"
                       }
-                      alt="/"
+                      alt="description"
                       className="img_icon"
                     />
                   </div>
