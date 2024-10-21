@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ArmServiceReactApp/static/css/main.2564ec2c.css",
-    "main.js": "/ArmServiceReactApp/static/js/main.bef003da.js",
+    "main.js": "/ArmServiceReactApp/static/js/main.130e342f.js",
     "static/media/img_opening_company.png": "/ArmServiceReactApp/static/media/img_opening_company.58e8ddf1805258811519.png",
     "static/media/VISA.png": "/ArmServiceReactApp/static/media/VISA.183b74d6d02d00881a96.png",
     "static/media/Yer.png": "/ArmServiceReactApp/static/media/Yer.4a4afd55a62b9bd5b455.png",
@@ -43,10 +43,10 @@
     "static/media/telephone.png": "/ArmServiceReactApp/static/media/telephone.fb244201058d6b0c101c.png",
     "index.html": "/ArmServiceReactApp/index.html",
     "main.2564ec2c.css.map": "/ArmServiceReactApp/static/css/main.2564ec2c.css.map",
-    "main.bef003da.js.map": "/ArmServiceReactApp/static/js/main.bef003da.js.map"
+    "main.130e342f.js.map": "/ArmServiceReactApp/static/js/main.130e342f.js.map"
   },
   "entrypoints": [
     "static/css/main.2564ec2c.css",
-    "static/js/main.bef003da.js"
+    "static/js/main.130e342f.js"
   ]
 }
