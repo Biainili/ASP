@@ -47,7 +47,7 @@ const Contactus = () => {
             >
               <div onMouseEnter={hoverOn} onMouseLeave={hoverOff} className="mb-3 bg-warning item_contact">
                 <img src={TelphonImg} alt="Telephone" className="icon_size" />
-                <a className="text_black" href="tel:+37433557565">
+                <a className="text_black" href="tel:+37433557565" rel="noreferrer">
                   {visibrlPhone === false ? (
                     <span>Phone Nubmer</span>
                   ) : (
@@ -62,7 +62,7 @@ const Contactus = () => {
             >
               <div className="mb-3 bg-warning item_contact" onMouseEnter={hoverOnWhats} onMouseLeave={hoverOffWhats} >
                 <img src={WhatsApp} alt="WhatsApp" className="icon_size" />
-                <a className="text_black">{!visibrlWhats ? <span>What's App</span> : <span>+7 916 606 96 33</span>}</a>
+                <a className="text_black" rel="noreferrer">{!visibrlWhats ? <span>What's App</span> : <span>+7 916 606 96 33</span>}</a>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const Contactus = () => {
             >
               <div className="mb-3 bg-warning item_contact" onMouseEnter={hoverOnTeleg} onMouseLeave={hoverOffTeleg} >
                 <img src={TelegramImg} alt="Telegram" className="icon_size" />
-                <a className="text_black" href="https://t.me/mode_mani" target="_blank">{!visibrlTeleg ? <span>Telegram</span> :<span>https://t.me/mode_mani</span>}</a>
+                <a className="text_black" href="https://t.me/mode_mani" rel="noreferrer">{!visibrlTeleg ? <span>Telegram</span> :<span>https://t.me/mode_mani</span>}</a>
               </div>
             </div>
             <div
@@ -82,7 +82,7 @@ const Contactus = () => {
             >
               <div className="mb-3 bg-warning item_contact" onMouseEnter={hoverOnEmail} onMouseLeave={hoverOffEmail} >
                 <img src={EmailImg} alt="Email" className="icon_size" />
-                <a className="text_black" href="mailto:barkhudaryan005@gmail.com" target="_blank"> {!visibrlEmail ? <span>Email</span>:<span>barkhudaryan005@gmail.com</span>}</a>
+                <a className="text_black" href="mailto:barkhudaryan005@gmail.com" rel="noreferrer"> {!visibrlEmail ? <span>Email</span>:<span>barkhudaryan005@gmail.com</span>}</a>
               </div>
             </div>
           </div>
